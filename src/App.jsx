@@ -35,14 +35,7 @@ const App = () => {
           <Navbar scrolled={scrolled}/>
           <Hero scrollValue={scrollValue}/>
         </div>
-        <About />
-        <Experience />
-        <Works />
-        <Gallery />
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
-        </div>
+        
       </div>
     </BrowserRouter>
   );

@@ -17,13 +17,10 @@ const Hero = ({ scrollValue }) => {
 
         <div>
           <h1 className={`${styles.heroHeadText}`} >
-            Hi, I'm <span className='text-quinary-text'>Khushal Grover</span>
+            <span className='text-quinary-text'>reactTestDeploy</span>
           </h1>
           
-          <p className={`${styles.heroSubText}`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+          
         </div>
       </div>
 
